@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1788746152,
+        "narHash": "sha256-RaKngusl5I8pNi8RfrVvsHq3NZe7eFWzDlb01+hEVqY=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "42f17a57f4f6e33b3de3dca0a2a5ea5233169d02",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "timelymeet-src": "timelymeet-src"
+      }
+    },
+    "timelymeet-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1764067068,
+        "narHash": "sha256-BSXL8l5c+GOC+cXbJeElSMbO0rCxzbBqKASaNBFREjI=",
+        "owner": "Romancha",
+        "repo": "timelymeet",
+        "rev": "8cff3ff639e6d33aa569134ab4977356b8eda005",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Romancha",
+        "ref": "1.6.1",
+        "repo": "timelymeet",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
